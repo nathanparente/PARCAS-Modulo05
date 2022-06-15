@@ -1,0 +1,43 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+div {
+    margin: 10px;
+}
+
+.div0 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    color: #fff;
+    transform: scale(2, 1);
+    margin-right: 100px;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    transform: skew(20deg, 10deg);
+}

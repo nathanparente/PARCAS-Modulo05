@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <title>Miss Bi - Formulário Curso </title>
+    <link rel="stylesheet" href="../MISS BI FORMS/assets/css/estiloforms.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    
+    <header> 
+        <div class="container_header">
+            <section id="banner">
+                <div class="container_banner">
+                    <div class="banner_headline">
+                        <h3> APRENDA INGLÊS</h3> 
+                        <h1> EM CASA </h1>
+                        <h5> AULAS PARTICULARES</h5>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section>
+        <section id="banner2">
+            <div class="container_forms">
+                <div class="forms_area">
+                    <div class="description_forms">
+                        <h3> AULA EXPERIMENTAL GRATUITA</h3>
+
+                    </div>
+
+                    <form action="/pagina-processa-dados-do-form" method="post">
+                        <div class="formulario"> 
+                            <h4> Dados do Aluno </h4>
+
+                        </br>
+
+                        <div class="label_name">
+
+                            <label>
+                                Nome Completo:
+                                <input class="input_name"  type="text" name="nome_do_aluno"/>
+                            </label>
+
+                        </div>
+                                
+                        </br>
+
+                        <div class="label_nascimento_idade">
+
+                            <label>
+                                Data de Nascimento: 
+                                <input class="input_nascimento" type="date" name="nascimento"/>
+                            </label>
+
+                            <label class="label_idade">
+                                Qual a sua idade: 
+                                <select class="input_idade"> 
+                                    <option>                  </option>
+                                    <option> 6 - 12 anos      </option>
+                                    <option> 13 - 19 anos     </option>
+                                    <option> 20 - 35 anos     </option>
+                                    <option> 35 - 50 anos     </option>
+                                    <option> + 50 anos        </option>
+                                </select>
+                            </label>
+
+                        </div>
+
+                        </br>
+
+                        <div class="label_cep_telefone">
+
+                            <label>
+                                CEP:
+                                <input class="input_cep" type="text" name="endereço"/>
+                            </label>
+                                
+                            <label class="label_telefone">
+                                Telefone:
+                                <input class="input_tel" type="tel" name="telefone"/>
+                            </label>
+
+                        </div>
+
+                        </br>
+
+                            
+                        <h4>Clique na imagem correspondente ao módulo que quer aprender:</h4>
+                                            
+                                
+                        <div class="imagens_curso">
+                            <label for="mdbasico"> <img src="../MISS BI FORMS/assets/images/BÁSICO.png"/> </label>
+                            <label for="mdintermediario"> <img src="../MISS BI FORMS/assets/images/INTERMEDIARIO.png"/> </label>
+                            <label for="mdavançado"> <img src="../MISS BI FORMS/assets/images/AVANÇADO.png"/> </label>
+                        </div>
+
+                        <div class="textos_checkbox">
+
+                            <div class="modulo_basico">
+                                Módulo Básico 
+                            </div>
+                            
+
+                            <div class="modulo_intermediario">
+                                Módulo Intermediário 
+                            </div>
+                            
+
+                            <div class="modulo_avançado">
+                                Módulo Avançado 
+                            </div>
+                                
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" name="modulo" id="mdbasico"/>
+                            <input type="checkbox" name="modulo" id="mdintermediario"/>
+                            <input type="checkbox" name="modulo" id="mdavançado"/>
+                        </div>
+
+                        <div class="botao_enviar">
+                            <A href=""> <button> Enviar</button> </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </section>
+
+    <footer> 
+        <div class="footer_bar">
+
+            <a href=""><img src="../MISS BI FORMS/assets/images/LOGOTIPO.png"/></a>
+
+
+
+
+        </div>
+    </footer>
+</body>
+</html>

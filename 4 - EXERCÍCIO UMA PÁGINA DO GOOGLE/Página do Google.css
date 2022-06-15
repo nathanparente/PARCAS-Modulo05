@@ -1,0 +1,268 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    background-color: #202124;
+}
+
+.header_items {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+}
+
+.items_text {
+    order: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 5px 0px 8px 5px;
+}
+
+.items_text h6 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin:0px 10px;
+}
+
+.items_text a {
+    text-decoration: none;
+}
+
+.items_text a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+.items_img {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.items_img img:hover {
+    display: inline-block;
+    margin:0 5px;
+    border: 5px solid #2c2d31;
+    background-color: #2c2d31;
+    border-radius: 50%;
+}
+
+
+.items_img img {
+    width: 28px;
+    height: 28px;
+    margin: 0px 10px;
+}
+
+.logo_google {
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    width: 100%;
+    height: 160px;
+    padding-bottom: 10px;
+}
+
+.search_area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.search_area_bar  {
+    display: flex;
+    justify-content: center;
+    width: 580px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid #797a7f;
+}
+
+.search_area_bar:hover {
+    background-color:#303134 ;
+    box-shadow: 1px 5px 5px #1e1f21;
+    border: none;
+}
+
+
+.search_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search_bar input {
+    width: 430px;
+    height: 25px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.search_bar input:hover {
+    outline: 0;
+}
+
+.icon_search img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.icons_keyboard_microphone {
+    margin-left: 8px;
+}
+
+
+.icons_keyboard_microphone img {
+    width: 40px;
+    height: 40px;
+}
+
+.area_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:580px;
+    height: 80px;
+}
+
+.buttons button {
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #303134;
+    color: #fff;
+    font-size: 14px;
+}
+
+button:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.area_below {
+    width: 100%;
+    height: 250px;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.text1 a {
+    text-decoration: none;
+    color: #8AB4D6;
+}
+
+.text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color:#96989d;
+}
+
+.text2 a {
+    text-decoration: none;
+    color: #8AB4D6;
+    margin-left: 5px;
+}
+
+.footer_country {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 50px;
+    background-color:#171717;
+    color:#8AB4D6;
+    font-family:'Opens Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.footer_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+    height: 20px;
+    background-color: #171717;
+    border-top: 1px solid #2c2d31;
+    padding: 15px 20px ;
+}
+
+.text_left a {
+    text-decoration: none;
+    color: #8AB4D6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.text_left a:hover {
+    text-decoration: underline;
+}
+
+.text_right a {
+    text-decoration: none;
+    color: #8AB4D6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.text_right a:hover {
+    text-decoration: underline;
+}
+
+.textos1 {
+    padding: 15px;
+}
+
+.textos2 {
+    padding: 15px;
+}

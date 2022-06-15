@@ -1,0 +1,40 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+div {
+    margin: 10px;
+}
+
+.div0 {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    color: #fff;
+    transform: scale(2, 1);
+    margin-right: 100px;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+    transform: scale(1);
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    transform: scale(0.5);
+}

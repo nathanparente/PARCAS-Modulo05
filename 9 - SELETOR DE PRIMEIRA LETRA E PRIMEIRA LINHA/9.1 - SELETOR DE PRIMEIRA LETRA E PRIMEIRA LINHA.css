@@ -1,0 +1,17 @@
+*{
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    padding: 20px;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}

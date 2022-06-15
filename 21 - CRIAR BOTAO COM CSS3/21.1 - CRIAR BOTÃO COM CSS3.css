@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 60px;
+    background-color: blue;
+    background-image: linear-gradient(to top, #2370a7, #35A2F4);
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    background-color: blue;
+    background-image: linear-gradient(to top, #2d8bce, #3cabff);
+}

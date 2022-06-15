@@ -1,0 +1,18 @@
+
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    border: 20px solid greenyellow;
+    box-sizing: content-box;
+}
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    border: 20px solid orange;
+    box-sizing: border-box;
+}

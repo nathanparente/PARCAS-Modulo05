@@ -1,0 +1,41 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    padding: 30px;
+}
+
+input, a {
+    display: block;
+}
+
+input[type=text] {
+    background-color: red;
+}
+
+a[href*="tecnologia"] {
+    background-color: blue;
+}
+
+a[href*=mundo] {
+    background-color: aquamarine;
+}
+
+a[href*=neymar] {
+    background-color: greenyellow;
+}
+
+a[href^="https:"] {
+
+}
+
+a[href^="http"] {
+    
+}
+
+a[href$="html"] {
+    border: 4px solid orange;
+    margin: 8px;
+}

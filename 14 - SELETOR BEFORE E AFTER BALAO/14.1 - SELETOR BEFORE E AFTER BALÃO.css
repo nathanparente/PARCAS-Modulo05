@@ -1,0 +1,20 @@
+
+
+
+.balao {
+    background-color: blueviolet;
+    display: inline-block;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.balao::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+
+    border: 20px solid;
+    border-color: blueviolet red yellow black;
+}

@@ -1,0 +1,16 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0px;
+    padding: 30px;
+}
+
+input, a {
+    display: block;
+}
+
+input[type=text] {
+    background-color: red;
+}

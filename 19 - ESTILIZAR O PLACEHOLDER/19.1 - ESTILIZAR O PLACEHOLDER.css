@@ -1,0 +1,31 @@
+.input {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color: blue;
+}
+
+.input::placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.input::-webkit-input-placeholder {
+
+}
+
+.input:-moz-placeholder {
+
+}
+
+.input::-moz-placeholder {
+
+}
+
+.input:-ms-input-placeholder {
+
+}
+
+.input::-ms-input-placeholder {
+    
+}
